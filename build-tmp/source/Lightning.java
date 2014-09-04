@@ -19,7 +19,7 @@ PImage azula;
 
 public void setup(){
 	azula = loadImage("azula1.png");
-	size(600,600);
+	size(600,500);
 	strokeWeight(1.5f);
 	frameRate(15);
 }
@@ -36,9 +36,9 @@ public void draw(){
 
 class Litening {
 	int startX = 275;
-	int startY = 250;
+	int startY = 190;
 	int endX = 275;
-	int endY = 250;
+	int endY = 190;
 
 	public void show(){
 		int x = (int)random(0,150);
@@ -51,12 +51,12 @@ class Litening {
 		    startY = endY;
 		}
 		startX = 275;
-		startY = 250;
+		startY = 190;
 		endX = 275;
-		endY = 250;
+		endY = 190;
 		noStroke();
 		fill(0,0,0);
-		rect(10,500,225,75);
+		rect(10,400,225,75);
 	}
 }
 
